@@ -1,0 +1,5 @@
+version: '3'
+services:
+  example-service:
+    image: alpine/curl:3.14
+    command: 'host.internal.docker:3000'

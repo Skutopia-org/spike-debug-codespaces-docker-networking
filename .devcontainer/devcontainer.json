@@ -1,0 +1,17 @@
+{
+	"name": "Node.js & Docker-in-docker",
+	"build": {"dockerfile": "Dockerfile"},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint"
+			]
+		}
+	},
+	"features": {
+		"docker-from-docker": "latest"
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/zsh"
+	}
+}

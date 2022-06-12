@@ -1,0 +1,1 @@
+node server.js & (sleep 1 && docker compose up)
